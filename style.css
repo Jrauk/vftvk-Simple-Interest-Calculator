@@ -32,20 +32,20 @@ h1
 
 table td
 {
-    padding-bottom: 10px;
 }
 #compute
 {
     margin-bottom: 20px;
     background-color: lightgrey;
     color: black;
-    width: 120px;
+    width: 125px;
 }
 #principal{
     width: 190px;
 }
 
 #years{
+    width: 20px;
 }
 
 #footer
