@@ -30,8 +30,9 @@ h1
     margin-left: 80px;
 }
 
-table td
+.table td
 {
+    margin-bottom: 5px;
 }
 #compute
 {
@@ -41,7 +42,7 @@ table td
     width: 125px;
 }
 #principal{
-    width: 190px;
+    width: 160px;
 }
 
 #years{
