@@ -4,7 +4,6 @@ body
     color: #ffffff;
     font-family: Arial;
 }
-
 h1
 {
     color: grey;
@@ -12,7 +11,6 @@ h1
     align: left;
     white-space: nowrap;
 }
-
 .maindiv
 {
     background-color: #ffffff;
@@ -24,12 +22,9 @@ h1
     margin-right: auto;
     align: center;
 }
-
-/* #result
 {
     display: none;
-} */
-
+} 
 .contents
 {
     margin-left: 80px;
@@ -39,14 +34,13 @@ table td
 {
     padding-bottom: 10px;
 }
-
 #compute
 {
-    margin-bottom: 10px;
-    background-color: blue;
-    color: white;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    color: black;
     height: 40px;
-    width: 325px;
+    width: 120px;
 }
 #principal{
     height: 25px;
@@ -60,7 +54,7 @@ table td
 
 #footer
 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .labels
