@@ -10,6 +10,7 @@ h1
     color: grey;
     font-family: Verdana;
     align: left;
+    white-space: nowrap;
 }
 
 .maindiv
