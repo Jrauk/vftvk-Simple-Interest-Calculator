@@ -43,16 +43,20 @@ h1
     width: 125px;
 }
 #principal{
-    width: 150px;
+    width: 145px;
 }
 
 #years{
-    width: 40px;
+    width: 35px;
 }
 
 #footer
 {
     margin-top: 20px;
+}
+#results
+{
+    margin-bottom: 10px;
 }
 
 .labels
