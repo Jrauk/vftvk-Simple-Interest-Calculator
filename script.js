@@ -24,7 +24,7 @@ function compute()
 function SliderValue()
 {
     var slider = document.getElementById("rate");
-    var output = document.getElementById("rate_display" + "%");
+    var output = document.getElementById("rate_display";"%");
     output.innerHTML = slider.value; // Display the default slider value 10.25%
 
     // Should update slider value
