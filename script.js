@@ -2,7 +2,7 @@ function compute()
 {   // Give prompt if value not set to greater than 1
     var principal = document.getElementById("principal").value;
 
-    if(principal < 0)
+    if(principal == "" || principal >= 0)
     {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
