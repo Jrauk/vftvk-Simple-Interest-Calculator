@@ -1,5 +1,5 @@
 function compute()
-{
+{   // Give prompt if value not set to greater than 1
     var principal = document.getElementById("principal").value;
 
     if(principal == "" || principal <= 0)
@@ -8,7 +8,7 @@ function compute()
         document.getElementById("principal").focus();
         return;
     }
-
+    // Get values from input and set interest function
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
     var interest = principal * years * rate / 100;
@@ -17,6 +17,7 @@ function compute()
     var yearNow = parseInt(dateNow.getFullYear()) + parseInt(years);
     
     var resultDisplay = document.getElementById("result");
+    // Give text for interest at rate and lenght of savings highlighted
     resultDisplay.innerHTML = "If you deposit " + "<span class='highlight'>" + principal + "</span>."  + ", <br> at an interest rate of "+ "<span class='highlight'>" + rate + "</span>%." + "<br> You will receive an amount of " + "<span class='highlight'>" + interest + "</span>" + ", <br> in the year " + "<span class='highlight'>" + yearNow + "</span>";
 }
 
